@@ -1,7 +1,6 @@
 package solution;
 
 import java.util.*;
-import java.io.*;
 
 class DataTypes{
     public static void main(String []argh) {
@@ -30,6 +29,8 @@ class DataTypes{
             }
 
         }
+
+        sc.close();
     }
 }
 

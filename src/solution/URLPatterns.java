@@ -1,7 +1,5 @@
 package solution;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.util.Scanner;
 
 class URLPatterns{
@@ -13,7 +11,7 @@ class URLPatterns{
             System.out.println(new MyRegex().pattern);
             System.out.println(IP.matches(new MyRegex().pattern));
         }
-
+        in.close();
     }
 }
 
